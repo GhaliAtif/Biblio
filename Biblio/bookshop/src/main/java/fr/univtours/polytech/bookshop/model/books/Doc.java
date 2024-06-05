@@ -306,15 +306,6 @@ public class Doc {
         this.authorAlternativeName = authorAlternativeName;
     }
 
-    @JsonProperty("author_key")
-    public String getAuthor_key() {
-        return author_key;
-    }
-
-    @JsonProperty("author_key")
-    public void setAuthor_key(String authorKey) {
-        this.author_key = authorKey;
-    }
 
     @JsonProperty("author_name")
     public List<String> getAuthor_name() {
