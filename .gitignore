@@ -34,3 +34,4 @@ Biblio/bookshop/target/bookshop/WEB-INF/classes/fr/univtours/polytech/bookshop/d
 Biblio/bookshop/target/maven-archiver/pom.properties
 Biblio/bookshop/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst
 Biblio/bookshop/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst
+.vscode/settings.json
