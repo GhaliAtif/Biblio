@@ -1,0 +1,7 @@
+fr\univtours\polytech\bookshop\utils\DataBaseInitializer.class
+fr\univtours\polytech\bookshop\business\BookBusinessImpl.class
+fr\univtours\polytech\bookshop\model\BookBean.class
+fr\univtours\polytech\bookshop\controller\BooksServlet.class
+fr\univtours\polytech\bookshop\dao\BookDAO.class
+fr\univtours\polytech\bookshop\business\BookBusiness.class
+fr\univtours\polytech\bookshop\dao\BookDAOImpl.class
