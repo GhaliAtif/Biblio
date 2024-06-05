@@ -13,8 +13,10 @@ fr\univtours\polytech\bookshop\dao\BookRestDAOImpl.class
 fr\univtours\polytech\bookshop\utils\DataBaseInitializer.class
 fr\univtours\polytech\bookshop\business\BookRestBusiness.class
 fr\univtours\polytech\bookshop\business\BookBusinessImpl.class
+fr\univtours\polytech\bookshop\rest\BookRest.class
 fr\univtours\polytech\bookshop\model\exchange\ConversionRates.class
 fr\univtours\polytech\bookshop\dao\ExchangeDAOImpl.class
 fr\univtours\polytech\bookshop\dao\BookDAO.class
 fr\univtours\polytech\bookshop\business\BookBusiness.class
 fr\univtours\polytech\bookshop\dao\BookDAOImpl.class
+fr\univtours\polytech\bookshop\rest\WebApp.class
