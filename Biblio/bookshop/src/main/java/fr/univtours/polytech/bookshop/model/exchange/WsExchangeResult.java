@@ -13,15 +13,15 @@ import com.fasterxml.jackson.annotation.JsonPropertyOrder;
 
 @JsonInclude(JsonInclude.Include.NON_NULL)
 @JsonPropertyOrder({
-    "result",
-    "documentation",
-    "terms_of_use",
-    "time_last_update_unix",
-    "time_last_update_utc",
-    "time_next_update_unix",
-    "time_next_update_utc",
-    "base_code",
-    "conversion_rates"
+        "result",
+        "documentation",
+        "terms_of_use",
+        "time_last_update_unix",
+        "time_last_update_utc",
+        "time_next_update_unix",
+        "time_next_update_utc",
+        "base_code",
+        "conversion_rates"
 })
 @Generated("jsonschema2pojo")
 public class WsExchangeResult {

@@ -20,7 +20,7 @@ public class BooksServlet extends HttpServlet {
     @Inject
     private BookBusiness bookBusiness;
 
-    @Inject 
+    @Inject
     BookRestBusiness bookRestBusiness;
 
     @Override
@@ -53,7 +53,6 @@ public class BooksServlet extends HttpServlet {
                 bookBean.setAuthorImageUrl(authorImageUrl);
             }
 
-            
         }
 
         request.setAttribute("BOOKS", books);
