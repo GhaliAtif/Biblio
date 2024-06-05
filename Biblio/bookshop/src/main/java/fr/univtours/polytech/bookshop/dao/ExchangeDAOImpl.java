@@ -9,7 +9,7 @@ import java.net.URL;
 import java.util.Scanner;
 
 public class ExchangeDAOImpl implements ExchangeDAO {
-    
+
     private static final String API_URL = "https://v6.exchangerate-api.com/v6/588482b47b5603743b4b210b/latest/EUR";
 
     @Override

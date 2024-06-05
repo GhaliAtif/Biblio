@@ -16,10 +16,10 @@ import jakarta.annotation.Generated;
 
 @JsonInclude(JsonInclude.Include.NON_NULL)
 @JsonPropertyOrder({
-    "numFound",
-    "start",
-    "numFoundExact",
-    "docs"
+        "numFound",
+        "start",
+        "numFoundExact",
+        "docs"
 })
 @Generated("jsonschema2pojo")
 public class BookShopResult {

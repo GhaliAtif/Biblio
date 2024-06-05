@@ -20,6 +20,8 @@ public class BookBean implements Serializable {
     private int ratingsCount;
     private Double ratingsAverage;
     private String firstSentence;
+    @SuppressWarnings("unused")
+    private String authorImageUrl;
 
     public Integer getId() {
         return id;
@@ -83,5 +85,9 @@ public class BookBean implements Serializable {
 
     public void setFirstSentence(String firstSentence) {
         this.firstSentence = firstSentence;
+    }
+
+    public void setAuthorImageUrl(String authorImageUrl) {
+        this.authorImageUrl = authorImageUrl;
     }
 }
