@@ -46,6 +46,13 @@ public class BooksServlet extends HttpServlet {
                     bookBean.setRatingsAverage(ratingsAverage);
                 }
             }
+
+            String authorKey = WsResult.get(0).getAuthor_key();
+            if (authorKey != null) {
+                String authorImageUrl = "https://covers.openlibrary.org/a/olid/" + authorKey + ".jpg";
+                bookBean.setAuthorImageUrl(authorImageUrl);
+            }
+
             
         }
 
