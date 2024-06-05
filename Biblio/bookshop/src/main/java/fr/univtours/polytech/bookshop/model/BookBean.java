@@ -20,7 +20,10 @@ public class BookBean implements Serializable {
     private int ratingsCount;
     private Double ratingsAverage;
     private String firstSentence;
+<<<<<<< HEAD
     @SuppressWarnings("unused")
+=======
+>>>>>>> 9482528f401a1788840e325d5bcb36e4a1dca47b
     private String authorImageUrl;
 
     public Integer getId() {
@@ -87,6 +90,13 @@ public class BookBean implements Serializable {
         this.firstSentence = firstSentence;
     }
 
+<<<<<<< HEAD
+=======
+    public String getAuthorImageUrl() {
+        return authorImageUrl;
+    }
+
+>>>>>>> 9482528f401a1788840e325d5bcb36e4a1dca47b
     public void setAuthorImageUrl(String authorImageUrl) {
         this.authorImageUrl = authorImageUrl;
     }

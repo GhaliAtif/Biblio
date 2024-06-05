@@ -307,13 +307,13 @@ public class Doc {
     }
 
     @JsonProperty("author_key")
-    public List<String> getAuthorKey() {
-        return authorKey;
+    public String getAuthor_key() {
+        return author_key;
     }
 
     @JsonProperty("author_key")
-    public void setAuthorKey(List<String> authorKey) {
-        this.authorKey = authorKey;
+    public void setAuthor_key(String authorKey) {
+        this.author_key = authorKey;
     }
 
     @JsonProperty("author_name")
