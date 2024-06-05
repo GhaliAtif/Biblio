@@ -1,11 +1,17 @@
 fr\univtours\polytech\bookshop\dao\ExchangeDAO.class
 fr\univtours\polytech\bookshop\business\ExchangeBusiness.class
+fr\univtours\polytech\bookshop\business\BookShopResultImpl.class
 fr\univtours\polytech\bookshop\model\BookBean.class
 fr\univtours\polytech\bookshop\controller\ConversionServlet.class
 fr\univtours\polytech\bookshop\controller\BooksServlet.class
+fr\univtours\polytech\bookshop\model\books\BookShopResult.class
+fr\univtours\polytech\bookshop\dao\BookRestDAO.class
+fr\univtours\polytech\bookshop\model\books\Doc.class
 fr\univtours\polytech\bookshop\model\exchange\WsExchangeResult.class
 fr\univtours\polytech\bookshop\business\ExchangeBusinessImpl.class
+fr\univtours\polytech\bookshop\dao\BookRestDAOImpl.class
 fr\univtours\polytech\bookshop\utils\DataBaseInitializer.class
+fr\univtours\polytech\bookshop\business\BookRestBusiness.class
 fr\univtours\polytech\bookshop\business\BookBusinessImpl.class
 fr\univtours\polytech\bookshop\model\exchange\ConversionRates.class
 fr\univtours\polytech\bookshop\dao\ExchangeDAOImpl.class
