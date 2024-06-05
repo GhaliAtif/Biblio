@@ -7,13 +7,12 @@ import fr.univtours.polytech.bookshop.model.books.Doc;
 import jakarta.ejb.Stateless;
 import jakarta.inject.Inject;
 
-
 @Stateless
 public class BookShopResultImpl implements BookRestBusiness {
-     @Inject
+    @Inject
     private BookRestDAO bookRestDAO;
 
-    public List<Doc> searchDocs(String search){
+    public List<Doc> searchDocs(String search) {
 
         return bookRestDAO.getDocs(search);
 

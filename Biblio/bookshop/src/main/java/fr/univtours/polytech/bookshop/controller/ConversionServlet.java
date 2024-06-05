@@ -18,12 +18,14 @@ public class ConversionServlet extends HttpServlet {
     private ExchangeBusiness exchangeBusiness;
 
     @Override
-    protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+    protected void doGet(HttpServletRequest request, HttpServletResponse response)
+            throws ServletException, IOException {
         request.getRequestDispatcher("convert.jsp").forward(request, response);
     }
 
     @Override
-    protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+    protected void doPost(HttpServletRequest request, HttpServletResponse response)
+            throws ServletException, IOException {
         String amountStr = request.getParameter("amount");
         if (amountStr != null && !amountStr.isEmpty()) {
             double amount = Double.parseDouble(amountStr);
